@@ -20,7 +20,7 @@ other lab repositories.
 | [SOC 2 TSC mapping and gap analysis](docs/tsc-mapping.md) | 36 Security and Availability criteria: 1 Addressed, 29 Partial, 4 Gap, 1 Not applicable, 1 Out of scope; seven main gaps (G-1 to G-7) |
 | [CSA CAIQ v4.0.3 self-assessment](docs/caiq-self-assessment.md) | 261 answers keyed by question ID, confirmed by me in five rounds: 2 Yes, 215 No, 44 NA |
 | [Security response library](docs/response-library.md) | 34 reusable questionnaire answers, each with evidence and a "limits of claim" line |
-| [Third-party risk review: Wazuh](docs/vendor-review-wazuh.md) | Acceptable on condition of upgrading to 4.14.8: CVEs published on the review date affect the version in use |
+| [Third-party risk review: Wazuh](docs/vendor-review-wazuh.md) | Acceptable on condition of upgrading to 4.14.8: CVEs published on the review date affected the version in use. Upgraded the same day; enrollment without a password remains open |
 
 Source material and how it is used: [sources and licensing](docs/sources-and-licensing.md).
 
@@ -31,8 +31,8 @@ Source material and how it is used: [sources and licensing](docs/sources-and-lic
 - Segregation of duties cannot be achieved by one person (G-2); the compensating measures are
   written approvals before changes and published records.
 - Monitoring covers one endpoint (G-3), and backups cover two of four VMs with no off-site copy (G-7).
-- The SIEM runs a Wazuh version with newly published High and Critical CVEs; the upgrade is the
-  first proposed action from this lab.
+- The SIEM ran a Wazuh version with newly published High and Critical CVEs; it was upgraded to
+  4.14.8 the same day. Agent enrollment without a password remains open.
 
 ## AI Collaboration and Human Validation
 

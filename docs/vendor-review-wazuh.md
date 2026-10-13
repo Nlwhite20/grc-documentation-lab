@@ -74,6 +74,22 @@ CVE-2026-61800) list 4.14.7 as the patched version, so they do not affect the la
 | V-4 | Subscribe to Wazuh GitHub security advisories and review monthly | Turns this one-off review into a recurring control (C-24) |
 | V-5 | Review whether the manager sends data to Wazuh beyond feed downloads | Completes the data-sharing row above |
 
+## Follow-up (2026-10-13)
+
+Actions taken the same day, each under its own approval. The sections above are kept as written
+at the time of the review.
+
+| # | Status | Result |
+| --- | --- | --- |
+| V-1 | **Done** | Manager, indexer and dashboard upgraded to 4.14.8, then agent 002; the CVEs listed above are fixed in the running version ([SIEM deployment log](https://github.com/Nlwhite20/wazuh-siem-lab/blob/main/docs/deployment-log.md)) |
+| V-2 | **Done** | Agent enrollment was enabled with **no password**, so the enrolled-agent precondition for CVE-2026-74034 and CVE-2026-74045 could be met by any host able to reach port 1515. Recorded as SIEM risk R-09, open ([SIEM risk register](https://github.com/Nlwhite20/wazuh-siem-lab/blob/main/docs/risk-register.md)) |
+| V-3 | **Done** | Clustering is disabled, so CVE-2026-74040 and CVE-2026-74043 did not apply |
+| V-4 | Open | Advisory subscription and monthly review not set up |
+| V-5 | Open | Data sent to Wazuh beyond feed downloads not reviewed |
+
+**Current exposure after follow-up:** the listed CVEs are fixed. Remaining: enrollment without a
+password (R-09) and the open items V-4 and V-5.
+
 ## Limits of this review
 
 Based only on public information read on 2026-10-13. No vendor questionnaire, contract or

@@ -267,9 +267,9 @@ Self-assessment by the lab owner; not independently verified.
 
 **Answer:** By reviewing advisories for key software. Official release notes and advisories were reviewed for Wazuh and suricata-update, with applicability recorded.
 
-**Evidence:** [exception evidence review](https://github.com/Nlwhite20/vulnerability-management-lab/blob/main/docs/exception-evidence-review.md); [control inventory](control-inventory.md) C-24
+**Evidence:** [exception evidence review](https://github.com/Nlwhite20/vulnerability-management-lab/blob/main/docs/exception-evidence-review.md); [Wazuh vendor review](vendor-review-wazuh.md); [control inventory](control-inventory.md) C-24
 
-**Limits of claim:** One review; no schedule; providers such as GitHub and Discord are not reviewed. A Wazuh vendor review is planned in this lab.
+**Limits of claim:** One advisory review and one vendor review (Wazuh, 2026-10-13, which led to an upgrade the same day); no schedule; providers such as GitHub and Discord are not reviewed.
 
 ### RL-32. Do you use AI tools?
 

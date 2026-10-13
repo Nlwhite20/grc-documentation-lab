@@ -320,7 +320,7 @@ not NA.
 | STA-11.1 | No | CSP-owned | No annual internal assessment process; this is the first assessment | none |
 | STA-12.1 | No | CSP-owned | Providers' standard terms accepted; no requirements set | none |
 | STA-13.1 | No | CSP-owned | Providers' governance not reviewed | none |
-| STA-14.1 | No | CSP-owned | Partly: a Wazuh vendor review is planned in this lab; no periodic assessment process | C-24 |
+| STA-14.1 | No | CSP-owned | Partly: one vendor review (Wazuh, 2026-10-13); no periodic assessment process | C-24 |
 | TVM-01.1 | No | CSP-owned | Partly: a written prioritisation method exists; no vulnerability management policy | C-12 |
 | TVM-01.2 | No | CSP-owned | No policy to review | none |
 | TVM-02.1 | No | CSP-owned | No malware protection policy | none |

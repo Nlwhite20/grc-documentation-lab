@@ -60,7 +60,7 @@ Self-assessment by the lab owner; not an audit, not independently tested.
 | CC7.5 | Recovering from incidents | C-14, C-16, C-21 | Partial | Restore tested once; no recovery plan per system | IR-4 |
 | CC8.1 | Managing changes | C-05, C-13, C-22 | Partial | Two changes found unrecorded; one person requests, approves and makes each change | CM-3, CM-4 |
 | CC9.1 | Reducing business disruption risk | C-14, C-15, C-16 | Partial | No contingency plan; no off-site copy | CP-2, CP-10 |
-| CC9.2 | Managing vendor and partner risk | C-24 | Partial | One advisory review; vendor risk review in this lab is still to do | SA-9, SR-6 |
+| CC9.2 | Managing vendor and partner risk | C-24 | Partial | One vendor review (Wazuh, 2026-10-13), which led to an upgrade; no periodic review of providers | SA-9, SR-6 |
 | A1.1 | Capacity monitoring and planning | C-07 | Partial | CPU and disk monitored on the NOC host; no capacity planning | SC-5 |
 | A1.2 | Backup, recovery infrastructure and environmental protection | C-14, C-15, C-17 | Partial | Two VMs not backed up; no off-site copy; environmental protection out of scope | CP-9 |
 | A1.3 | Testing recovery | C-16 | Partial | One test round; monthly tests not scheduled | CP-4 |
