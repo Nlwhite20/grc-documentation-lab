@@ -184,7 +184,7 @@ answered NA with the reason given.
 | DSP-19.1 | No | CSP-owned | Partly: the system description states where data is kept and backed up; no defined procedure | none |
 | GRC-01.1 | No | CSP-owned | No information governance policy | none |
 | GRC-01.2 | No | CSP-owned | No policy to review | none |
-| GRC-02.1 | No | CSP-owned | Partly: risk registers record identification, rating, owner, treatment and acceptance; no formal risk management programme or policy | C-20 |
+| GRC-02.1 | No | CSP-owned | Partly: risk registers record likelihood, impact, treatment and status; exceptions record an owner and acceptance; no formal risk management programme or policy | C-20 |
 | GRC-03.1 | No | CSP-owned | No policies to review | none |
 | GRC-04.1 | No | CSP-owned | Partly: risk exceptions have owners and review triggers; there are no policies for an exception to deviate from | C-12, C-20 |
 | GRC-05.1 | No | CSP-owned | Partly: controls exist across several areas; not organised as a security programme | none |

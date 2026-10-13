@@ -32,7 +32,7 @@ Self-assessment by the lab owner; not an audit, not independently tested.
 | CC1.2 | Independent oversight by a governing body | none | Not applicable | No board or governing body; one owner. Recorded as a limitation, not a pass | none in the mapping |
 | CC1.3 | Structure, reporting lines and authority | C-22 | Partial | Authority and approval rules written down, but one person holds every role (no segregation of duties) | PL-9, PM-2 |
 | CC1.4 | Competence of the people running controls | none | Gap | No training plan or competence record inside the control set | PS-3, PM-13 |
-| CC1.5 | Accountability for control responsibilities | C-20, C-22 | Partial | Owners named on risks and exceptions, but owner and reviewer are the same person | PS-8 |
+| CC1.5 | Accountability for control responsibilities | C-20, C-22 | Partial | Owners named on exceptions, not on individual risks; owner and reviewer are the same person | PS-8 |
 | CC2.1 | Relevant, quality information to support control | C-08, C-21 | Partial | Logs and records exist; only one endpoint feeds the SIEM | CM-13 |
 | CC2.2 | Internal communication of objectives and responsibilities | C-22 | Partial | Rules written per lab; no security policy set | PL-4, AT-2 |
 | CC2.3 | Communication with external parties | C-21 | Partial | Public, corrected documentation on GitHub; no channel for others to report issues | PM-15 |
