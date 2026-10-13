@@ -82,13 +82,13 @@ at the time of the review.
 | # | Status | Result |
 | --- | --- | --- |
 | V-1 | **Done** | Manager, indexer and dashboard upgraded to 4.14.8, then agent 002; the CVEs listed above are fixed in the running version ([SIEM deployment log](https://github.com/Nlwhite20/wazuh-siem-lab/blob/main/docs/deployment-log.md)) |
-| V-2 | **Done** | Agent enrollment was enabled with **no password**, so the enrolled-agent precondition for CVE-2026-74034 and CVE-2026-74045 could be met by any host able to reach port 1515. Recorded as SIEM risk R-09, open ([SIEM risk register](https://github.com/Nlwhite20/wazuh-siem-lab/blob/main/docs/risk-register.md)) |
+| V-2 | **Done** | Agent enrollment was enabled with **no password**, so the enrolled-agent precondition for CVE-2026-74034 and CVE-2026-74045 could be met by any host able to reach port 1515. Recorded as SIEM risk R-09; an enrollment password was then required and tested the same day (requests without it are refused), closing R-09 ([SIEM risk register](https://github.com/Nlwhite20/wazuh-siem-lab/blob/main/docs/risk-register.md)) |
 | V-3 | **Done** | Clustering is disabled, so CVE-2026-74040 and CVE-2026-74043 did not apply |
 | V-4 | Open | Advisory subscription and monthly review not set up |
 | V-5 | Open | Data sent to Wazuh beyond feed downloads not reviewed |
 
-**Current exposure after follow-up:** the listed CVEs are fixed. Remaining: enrollment without a
-password (R-09) and the open items V-4 and V-5.
+**Current exposure after follow-up:** the listed CVEs are fixed and agent enrollment requires a
+password (R-09 closed). Remaining: the open items V-4 and V-5.
 
 ## Limits of this review
 
